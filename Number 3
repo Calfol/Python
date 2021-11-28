@@ -1,0 +1,4 @@
+from time import sleep
+for z in range (0,10,100)
+sleep(1)
+print"Hacking""z")
