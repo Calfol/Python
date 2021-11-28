@@ -1,0 +1,4 @@
+nums = [1 , 2 , 3 , 4 , 5 , 5 , 6 , 6 , 7]
+for z in range(len(nums)):
+    if nums[z-1] == nums[z]:
+          print(nums[z-1], nums[z])
