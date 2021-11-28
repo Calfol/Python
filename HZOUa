@@ -1,0 +1,111 @@
+print("Ласкаво просимо в наш магазин відеокарт Fared")
+a = ("GIGABYTE Radeon RX 580 Gaming 4G")
+b = ("Quadro RTX 6000 24GB PNYQuadro RTX 6000 24GB PNY")
+c = ("GIGABYTE GeForce GTX 1060 WINDFORCE OC 3G")
+v = ("MSI GeForce GT 1030 2GHD4 LP OC")
+print("В нас є таких брендів ")
+print("GIGABYTE Radeon RX 580 Gaming 4G(Для вибора нажміть1.)")
+print("Quadro RTX 6000 24GB PNY(Для вибора нажміть2.)")
+print("GIGABYTE GeForce GTX 1060 WINDFORCE OC 3G(Для вибора нажміть3.)")
+print("MSI GeForce GT 1030 2GHD4 LP OC(Для вибора нажміть4.)")
+a = int(input("Яку відео карту ви виберете?"))
+if a == 1:
+    print("Ви вибрали видео карту номер 1.")
+    print("Це видео карта бренда - GIGABYTE Radeon RX 580 Gaming 4G")
+
+    print("The WINDFORCE 2X cooling system features 3 pure copper composite heat-pipes, heat-pipe direct touch GPU, 90mm unique blade fan design, 3D active fan with LED indicators, stylish metal back plate, together delivering an effective heat dissipation capacity for higher performance at lower temperatures. ")
+    b = input("Ви дійсно хочете купити цю відеокарту")
+    if b =="да" "Да"  or "Ага"  or "ага"  or "yes"  or "Yes":
+        print("Ціна: 1500,90.$")
+        print("Скажіть кодове слово для скидки 20%")
+        a1=input("Ваша відповідь:")
+        if a1 == "собака" or a1== "Собака" or a1== "dog"  or  a1== "Dog":
+            print("вау в точку!")
+            print("Ви купляєте відеокарту бренда GIGABYTE Radeon RX 580 Gaming 4G")
+            print("----------ЧЕК----------")
+            print("Ціна: 300.18$")
+            print("-----------ЧЕК----------")
+        else:
+            print("НЕ відгадав!")
+            print("Ви купляєте відеокарту бренда GIGABYTE Radeon RX 580 Gaming 4G")
+            print("-----------ЧЕК----------")
+            print("Ціна: 1500,90$")
+            print("-----------ЧЕК----------")
+
+else:
+      print("Обновіть програму для покупки другой відеокарти")
+      b = int(input("Яку відео карту ви виберете?"))
+if a == 2:
+    print("Ви вибрали відео карту номер 2.")
+    print("Це відео карта бренда - Quadro RTX 6000 24GB PNY")
+    print("Ціна:2000.15$")
+    b=input("Ви дійсно хочете купити цю відеокарту")
+    if b=="да" or "Да"  or "Ага"  or "ага"  or "yes"  or "Yes":
+        print("Якщо ваше ім'я є в нашому списку вас акція 35%")
+        a1=input("Ваша відповідь:")
+        if a1 == "Володимр" or a1== "Ярослав" or a1== "Іван"  or  a1== "Олег":
+            print("вау в точку!")
+            print("Ви купляєте відеокарту бренда Quadro RTX 6000 24GB PNY")
+            print("----------ЧЕК----------")
+            print("700.05$")
+            print("-----------ЧЕК----------")
+        else:
+            print("НЕ відгадав!")
+            print("Ви купляєте відеокарту бренда Quadro RTX 6000 24GB PNY")
+            print("-----------ЧЕК----------")
+            print("Ціна: 2000$")
+            print("-----------ЧЕК----------")
+
+else:
+    print("Обновіть програму для покупки другой відеокарти")
+    a1 = int(input("Яку відео карту ви виберете?"))
+    print("Ви вибрали видео карту номер 3")
+    print("Це видео карта бренда -GIGABYTE GeForce GTX 1060 WINDFORCE OC 3G ")
+    print("Ціна: 2345.3$")
+    a1 = input("Ви дійсно хочете купити цю відеокарту")
+    if a1 =="да" or "Да"  or "Ага"  or "ага"  or "yes"  or "Yes":
+        print("В якому році був заснований наш магазин 20%")
+        a1 = input("Ваша вадповідь")
+        if a1 == "1935" or a1 == "one thousand nine hundred thirty-five" or a1 == "Тисячу девятсот трицять п'ять":  
+            print("вау в точку!")
+            b = input("Ваш ответ:")
+            print("Ви купляєте відеокарту брендаGIGABYTE GeForce GTX 1060 WINDFORCE OC 3G")
+            print("----------ЧЕК----------")
+            print("Ціна: 469.06$")
+            print("-----------ЧЕК----------")
+        else:
+            print("НЕ відгадав!")
+            print("Ви купляєте відеокарту бренда GIGABYTE GeForce GTX 1060 WINDFORCE OC 3G")
+            print("-----------ЧЕК----------")
+            print("Ціна: 2345.3$")
+            print("-----------ЧЕК----------")
+
+    else:
+        print("Обновіть програму для покупки другой відеокарти")
+        a = int(input("Яку відео карту ви виберете?"))
+if a == 3:
+    print("Ви вибрали видео карту номер 4.")
+    print("Це видео карта бренда - MSI GeForce GT 1030 2GHD4 LP OC")
+    print("Ціна: 1500,90.$")
+    b = input("Ви дійсно хочете купити цю відеокарту")
+    if b=="да" or "Да" or "Ага" or "ага" or "yes" or "Yes":
+        print("Якщо ви скажете ім'я господаря магазина ваша снижка 12%")
+        a1=input("Ваша відповідь:")
+        if a1 == "Петро" or a1 == "петро" or a1 == "Petro" or a1 == "petro":
+            print("вау в точку!")
+            print("Ви купляєте відеокарту бренда MSI GeForce GT 1030 2GHD4 LP OC")
+            print("----------ЧЕК----------")
+            print("Ціна:180.11$")
+            print("-----------ЧЕК----------")
+        else:
+            print("НЕ відгадав!")
+            print("Ви купляєте відеокарту бренда MSI GeForce GT 1030 2GHD4 LP OC")
+            print("-----------ЧЕК----------")
+            print("Ціна: 1500,90$")
+            print("-----------ЧЕК----------")
+        end = "Пока"
+        c = 0
+        while end != end:
+            end = input("стоп")
+            c = c + 1
+            print("Напишіть стоп:",c)
