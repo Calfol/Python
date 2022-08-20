@@ -1,7 +1,0 @@
-marks = [] 
-mark = input("Введи балл (0 - остановить ввод):") 
-while mark != "0": 
-    marks.append(int(mark)) 
-    mark = input("Введи балл (0 - остановить ввод):") 
-print("Список оценок:", marks) 
-print("Успеваемость:", (marks.count(5)+marks.count(4)+marks.count(3))/len(marks)*100)
