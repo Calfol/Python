@@ -1,1 +1,0 @@
-print([z for z in range(10)]
