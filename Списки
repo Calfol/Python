@@ -1,3 +1,0 @@
-
-nums = [int (i) for i in input("Введите оценки через пробел:").split()]  
-print("Получено пятёрок (%) -", nums.count(5)/len(nums)*100)
